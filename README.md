@@ -23,8 +23,7 @@ I made this as a small experiment to explore how financial indicators can be int
 ---
 
 ##  Preview
-![Screenshot of Bollinger Bands Demo](<img width="1901" height="825" alt="image" src="https://github.com/user-attachments/assets/ac60b4ee-c748-4a2d-844f-6d4a54faa805" />
-)
+![Screenshot of Bollinger Bands Demo](<img width="1901" height="825" alt="image" src="https://github.com/user-attachments/assets/ac60b4ee-c748-4a2d-844f-6d4a54faa805" />)
 
 ---
 
