@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import { BollingerSetting, BollingerStyle } from '@/lib/indicators/types'
+import SettingsTab from './SettingsTab'
 
 type Props = {
   settings: BollingerSetting
@@ -27,7 +28,7 @@ export default function BollingerSettings({ settings, style, onClose, onChangese
       </div>
 
       {tab === 'settings' ? (
-        <settingsTab settings={settings} onChange={onChangesettings} />
+<SettingsTab settings={settings} onChange={onChangesettings} />
       ) : (
         <StyleTab style={style} onChange={onChangeStyle} />
       )}
