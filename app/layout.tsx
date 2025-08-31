@@ -12,8 +12,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} bg-gray-950 text-gray-100`}>
-        <div className="min-h-screen flex flex-col">
+<body className="bg-gray-50">{children}        <div className="min-h-screen flex flex-col">
           {/* Header */}
           <header className="p-4 text-center font-semibold text-lg border-b border-gray-800">
             Muktha’s Bollinger Bands Demo
