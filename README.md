@@ -5,7 +5,7 @@ I made this as a small experiment to explore how financial indicators can be int
 
 ---
 
-## 🚀 Tech Stack
+##  Tech Stack
 - [Next.js (App Router)](https://nextjs.org/)  
 - [TypeScript](https://www.typescriptlang.org/)  
 - [Tailwind CSS](https://tailwindcss.com/)  
@@ -13,7 +13,7 @@ I made this as a small experiment to explore how financial indicators can be int
 
 ---
 
-## ✨ Features
+##  Features
 - Interactive candlestick chart  
 - Configurable Bollinger Band **inputs** (period, multiplier, basis)  
 - Customizable **style** (colors, line widths, fill opacity)  
@@ -22,14 +22,33 @@ I made this as a small experiment to explore how financial indicators can be int
 
 ---
 
-## 📷 Preview
-![Screenshot of Bollinger Bands Demo](./public/demo.png)
+##  Preview
+![Screenshot of Bollinger Bands Demo](<img width="1901" height="825" alt="image" src="https://github.com/user-attachments/assets/ac60b4ee-c748-4a2d-844f-6d4a54faa805" />
+)
 
 ---
 
-## 🛠️ Getting Started
+## Getting Started
 
 Clone the repo:
 ```bash
 git clone https://github.com/Smuktha/bollinger-bands-demo.git
 cd bollinger-bands-demo
+
+
+```
+### Install dependencies:
+```bash
+npm install
+```
+
+### Run the dev server:
+```bash
+npm run dev
+```
+```bash
+Open http://localhost:3000
+```
+ to view the chart.
+
+
